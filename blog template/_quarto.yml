@@ -1,0 +1,49 @@
+project:  
+  type: website  # Defines project as a website
+  output-dir: docs  # Output files in the "docs" folder
+
+website:
+  announcement:  # Site-wide alert banner
+    icon: info-circle  
+    dismissable: true  
+    content: "**Alert** - You are welcome to use any template, but please do not use my posts."
+    type: primary  
+    position: above-navbar  
+  title: "Home"  # Website title
+  repo-url: https://github.com/your-username/your-repo  # Replace with your GitHub repository URL
+  open-graph: true  # Enables Open Graph for social media
+  site-url: https://your-username.github.io/your-website  # Replace with your website URL
+  navbar:  # Navigation bar settings
+    background: "#F8F2FF"  
+    border: true  
+    search: true  
+    left:  
+      - text: 'Blog'  
+        href: blog.qmd  
+      - text: "Resource"  
+        href: resource/resource.qmd  
+    right:  
+      - icon: twitter  
+        href: https://twitter.com/yourprofile  # Replace with your Twitter profile URL
+      - icon: github  
+        href: https://github.com/your-username  # Replace with your GitHub profile URL
+      - icon: envelope  
+        href: mailto:your-email@example.com  # Replace with your email address
+  page-footer:  # Footer settings
+    background: "#F8F2FF"  
+    left: "Made with 💜 and [Quarto](https://quarto.org/)"  
+    right:  
+      - icon: twitter  
+        href: https://twitter.com/yourprofile  # Replace with your Twitter profile URL
+      - icon: github  
+        href: https://github.com/your-username  # Replace with your GitHub profile URL
+      - icon: envelope  
+        href: mailto:your-email@example.com  # Replace with your email address
+
+format:  
+  html:  
+    theme: [cosmo,theme-light.scss]  # Uses custom theme
+    css: style.css  # Custom CSS file
+    highlight-style: ayu  # Code highlighting theme
+
+editor: visual  # Visual editor enabled

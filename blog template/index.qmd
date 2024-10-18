@@ -1,0 +1,18 @@
+---
+title: "Welcome~~"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com  # Replace with your Twitter profile URL
+    - icon: envelope
+      text: Email
+      href: mailto:youremail@example.com  # Replace with your email address
+    - icon: github
+      text: Github
+      href: https://github.com  # Replace with your GitHub profile URL
+---
+
+Hello
