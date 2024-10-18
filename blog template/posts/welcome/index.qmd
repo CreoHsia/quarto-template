@@ -1,11 +1,11 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-10-15"
-categories: [news]
+title: "Welcome To My website"
+author: "Xinyueluo"
+date: "2024-10-19"
+student id: [3223201]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+This is the first post in a github blog. Welcome!
 
 ![](thumbnail.jpg)
 
