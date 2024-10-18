@@ -1,6 +1,6 @@
 # Quarto Blog Template
 
-This repository provides a flexible template for setting up a blog using Quarto. It includes customizable components and options for both full blog setups and individual document templates.
+This repository provides a flexible template for setting up a blog using Quarto. It includes customizable components and options for both full blog setups and individual document templates. My address is: [Creo Hsia](https://creohsia.github.io/myblog/) and the theme is inspired by [Typora](https://typora.io)'s [Haru](https://theme.typora.io/theme/Haru/) theme.
 ## How to use
 
 ### Full Blog Template
